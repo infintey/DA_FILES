@@ -113,8 +113,8 @@ CB_OPTIONS=${DA_PATH}/custombuild/options.conf
 SCRIPTS_PATH=$DA_PATH/scripts
 PACKAGES=$SCRIPTS_PATH/packages
 SETUP=$SCRIPTS_PATH/setup.txt
-SERVER_SERVICES=https://raw.githubusercontent.com/irf1404/DA_REPO/master/services
-SERVER_FILES=https://raw.githubusercontent.com/irf1404/DA_FILES/master
+SERVER_SERVICES=https://raw.githubusercontent.com/infintey/DA_REPO/master/services
+SERVER_FILES=https://raw.githubusercontent.com/infintey/DA_FILES/master
 CBPATH=$DA_PATH/custombuild
 BUILD=$CBPATH/build
 
@@ -486,7 +486,7 @@ systemctl restart directadmin >/dev/null 2>&1
 if [ $? -gt 0 ]; then
 	echo "Directadmin not working!"
 	echo "Please try config network card again!"
-	echo "https://github.com/irf1404/DA_FILES"
+	echo "https://github.com/infintey/DA_FILES"
 fi
 
 printf \\a
